@@ -1,0 +1,291 @@
+2026-09-21 01:26:39,246 - __main__ - INFO - Starting pipeline
+2026-09-21 01:26:39,246 - __main__ - INFO - Loading data from data\raw\university.db
+2026-09-21 01:26:39,271 - __main__ - INFO - Loaded 13 and 4 columns 
+2026-09-21 01:27:17,856 - __main__ - INFO - Starting pipeline
+2026-09-21 01:27:17,856 - __main__ - INFO - Loading data from data\raw\university.db
+2026-09-21 01:27:17,867 - __main__ - INFO - Loaded 13 and 4 columns 
+2026-09-21 01:27:17,879 - __main__ - INFO - saved data to data\processed\student_ml_ready.csv
+2026-09-21 01:27:17,879 - __main__ - INFO - pipeline completed successfully
+2026-09-21 01:27:19,338 - __main__ - INFO - Starting pipeline
+2026-09-21 01:27:19,339 - __main__ - INFO - Loading data from data\raw\university.db
+2026-09-21 01:27:19,357 - __main__ - INFO - Loaded 13 and 4 columns 
+2026-09-21 01:27:19,372 - __main__ - INFO - saved data to data\processed\student_ml_ready.csv
+2026-09-21 01:27:19,373 - __main__ - INFO - pipeline completed successfully
+2026-09-21 15:07:02 INFO ============================================================
+2026-09-21 15:07:02 INFO PIPELINE EXECUTION STARTED
+2026-09-21 15:07:02 INFO ============================================================
+2026-09-21 15:07:03 INFO Local API server not detected. Launching background mock API server...
+2026-09-21 15:07:03 INFO CSV extraction started
+2026-09-21 15:07:03 INFO CSV records: 15
+2026-09-21 15:07:03 INFO API extraction started
+2026-09-21 15:07:03 INFO API records: 13
+2026-09-21 15:07:03 INFO Database extraction started
+2026-09-21 15:07:03 INFO Database records: 13
+2026-09-21 15:07:03 INFO Removed 1 duplicate records based on student_id
+2026-09-21 15:07:03 INFO Data integration started across CSV, API, and Database
+2026-09-21 15:07:03 INFO Data integration completed. Integrated records: 14
+2026-09-21 15:07:03 INFO Transformation started
+2026-09-21 15:07:03 INFO Generated derived columns: performance_level, attendance_status, academic_standing
+2026-09-21 15:07:03 INFO Transformation completed
+2026-09-21 15:07:03 INFO Validation started against institutional quality rules
+2026-09-21 15:07:03 INFO Validation completed: 9 valid records, 5 rejected records
+2026-09-21 15:07:03 INFO Saved 9 records to data\processed\final_dataset.csv (Final Processed Dataset)
+2026-09-21 15:07:03 INFO Saved 5 records to data\rejected\rejected_records.csv (Rejected Records)
+2026-09-21 15:07:03 INFO Final dataset created
+2026-09-21 15:07:03 INFO 
+-----------------------------------
+PIPELINE EXECUTION SUMMARY
+-----------------------------------
+CSV Records        : 15
+API Records        : 13
+Database Records   : 13
+Integrated Records : 14
+Valid Records      : 9
+Rejected Records   : 5
+Duplicate Records  : 1
+Missing Values     : 0
+Processing Time    : 1.378 seconds
+-----------------------------------
+2026-09-21 15:09:27 INFO ============================================================
+2026-09-21 15:09:27 INFO PIPELINE EXECUTION STARTED
+2026-09-21 15:09:27 INFO ============================================================
+2026-09-21 15:09:28 INFO Local API server not detected. Launching background mock API server...
+2026-09-21 15:09:28 INFO CSV extraction started
+2026-09-21 15:09:28 INFO CSV records: 15
+2026-09-21 15:09:28 INFO API extraction started
+2026-09-21 15:09:28 INFO API records: 13
+2026-09-21 15:09:28 INFO Database extraction started
+2026-09-21 15:09:28 INFO Database records: 13
+2026-09-21 15:09:28 INFO Removed 1 duplicate records based on student_id
+2026-09-21 15:09:28 INFO Data integration started across CSV, API, and Database
+2026-09-21 15:09:28 INFO Data integration completed. Integrated records: 14
+2026-09-21 15:09:28 INFO Transformation started
+2026-09-21 15:09:28 INFO Generated derived columns: performance_level, attendance_status, academic_standing
+2026-09-21 15:09:28 INFO Transformation completed
+2026-09-21 15:09:28 INFO Validation started against institutional quality rules
+2026-09-21 15:09:28 INFO Validation completed: 9 valid records, 5 rejected records
+2026-09-21 15:09:28 INFO Saved 9 records to data\processed\final_dataset.csv (Final Processed Dataset)
+2026-09-21 15:09:28 INFO Saved 5 records to data\rejected\rejected_records.csv (Rejected Records)
+2026-09-21 15:09:28 INFO Final dataset created
+2026-09-21 15:09:28 INFO 
+-----------------------------------
+PIPELINE EXECUTION SUMMARY
+-----------------------------------
+CSV Records        : 15
+API Records        : 13
+Database Records   : 13
+Integrated Records : 14
+Valid Records      : 9
+Rejected Records   : 5
+Duplicate Records  : 1
+Missing Values     : 0
+Processing Time    : 1.367 seconds
+-----------------------------------
+2026-09-21 15:10:39 INFO ============================================================
+2026-09-21 15:10:39 INFO PIPELINE EXECUTION STARTED
+2026-09-21 15:10:39 INFO ============================================================
+2026-09-21 15:10:39 INFO Incremental check: Raw data sources unchanged since last execution. Using cached output.
+2026-09-21 15:11:26 INFO ============================================================
+2026-09-21 15:11:26 INFO PIPELINE EXECUTION STARTED
+2026-09-21 15:11:26 INFO ============================================================
+2026-09-21 15:11:27 INFO Local API server not detected. Launching background mock API server...
+2026-09-21 15:11:27 INFO CSV extraction started
+2026-09-21 15:11:27 INFO CSV records: 15
+2026-09-21 15:11:27 INFO API extraction started
+2026-09-21 15:11:27 INFO API records: 13
+2026-09-21 15:11:27 INFO Database extraction started
+2026-09-21 15:11:27 INFO Database records: 13
+2026-09-21 15:11:27 INFO Removed 1 duplicate records based on student_id
+2026-09-21 15:11:27 INFO Data integration started across CSV, API, and Database
+2026-09-21 15:11:28 INFO Data integration completed. Integrated records: 14
+2026-09-21 15:11:28 INFO Transformation started
+2026-09-21 15:11:28 INFO Imputed 2 missing values in 'gpa' with median: 3.15
+2026-09-21 15:11:28 INFO Imputed 2 missing values in 'attendance' with median: 83.50
+2026-09-21 15:11:28 INFO Imputed 1 missing values in 'score' with mean: 85.31
+2026-09-21 15:11:28 INFO Generated derived columns: performance_level, attendance_status, academic_standing
+2026-09-21 15:11:28 INFO Transformation completed
+2026-09-21 15:11:28 INFO Validation started against institutional quality rules
+2026-09-21 15:11:28 INFO Validation completed: 9 valid records, 5 rejected records
+2026-09-21 15:11:28 INFO Saved 9 records to data\processed\final_dataset.csv (Final Processed Dataset)
+2026-09-21 15:11:28 INFO Saved 5 records to data\rejected\rejected_records.csv (Rejected Records)
+2026-09-21 15:11:28 INFO Final dataset created
+2026-09-21 15:11:28 INFO 
+-----------------------------------
+PIPELINE EXECUTION SUMMARY
+-----------------------------------
+CSV Records        : 15
+API Records        : 13
+Database Records   : 13
+Integrated Records : 14
+Valid Records      : 9
+Rejected Records   : 5
+Duplicate Records  : 1
+Missing Values     : 5
+Processing Time    : 1.468 seconds
+-----------------------------------
+2026-09-21 15:15:05 INFO ============================================================
+2026-09-21 15:15:05 INFO PIPELINE EXECUTION STARTED
+2026-09-21 15:15:05 INFO ============================================================
+2026-09-21 15:15:06 INFO Local API server not detected. Launching background mock API server...
+2026-09-21 15:15:06 INFO CSV extraction started
+2026-09-21 15:15:06 INFO CSV records: 15
+2026-09-21 15:15:06 INFO API extraction started
+2026-09-21 15:15:06 INFO API records: 13
+2026-09-21 15:15:06 INFO Database extraction started
+2026-09-21 15:15:06 INFO Database records: 13
+2026-09-21 15:15:06 INFO Removed 1 duplicate records based on student_id
+2026-09-21 15:15:06 INFO Data integration started across CSV, API, and Database
+2026-09-21 15:15:06 INFO Data integration completed. Integrated records: 14
+2026-09-21 15:15:06 INFO Transformation started
+2026-09-21 15:15:06 INFO Imputed 2 missing values in 'gpa' with median: 3.15
+2026-09-21 15:15:06 INFO Imputed 2 missing values in 'attendance' with median: 83.50
+2026-09-21 15:15:06 INFO Imputed 1 missing values in 'score' with mean: 85.31
+2026-09-21 15:15:06 INFO Generated derived columns: performance_level, attendance_status, academic_standing
+2026-09-21 15:15:06 INFO Transformation completed
+2026-09-21 15:15:06 INFO Validation started against institutional quality rules
+2026-09-21 15:15:06 INFO Validation completed: 9 valid records, 5 rejected records
+2026-09-21 15:15:06 INFO Saved 9 records to data\processed\final_dataset.csv (Final Processed Dataset)
+2026-09-21 15:15:06 INFO Saved 5 records to data\rejected\rejected_records.csv (Rejected Records)
+2026-09-21 15:15:06 INFO Final dataset created
+2026-09-21 15:15:06 INFO 
+-----------------------------------
+PIPELINE EXECUTION SUMMARY
+-----------------------------------
+CSV Records        : 15
+API Records        : 13
+Database Records   : 13
+Integrated Records : 14
+Valid Records      : 9
+Rejected Records   : 5
+Duplicate Records  : 1
+Missing Values     : 5
+Processing Time    : 1.323 seconds
+-----------------------------------
+2026-09-21 15:15:06 INFO Validation started against institutional quality rules
+2026-09-21 15:15:06 INFO Validation completed: 1 valid records, 5 rejected records
+2026-09-21 15:16:45 INFO ============================================================
+2026-09-21 15:16:45 INFO PIPELINE EXECUTION STARTED
+2026-09-21 15:16:45 INFO ============================================================
+2026-09-21 15:16:46 INFO Local API server not detected. Launching background mock API server...
+2026-09-21 15:16:46 INFO CSV extraction started
+2026-09-21 15:16:46 INFO CSV records: 15
+2026-09-21 15:16:46 INFO API extraction started
+2026-09-21 15:16:46 INFO API records: 13
+2026-09-21 15:16:46 INFO Database extraction started
+2026-09-21 15:16:46 INFO Database records: 13
+2026-09-21 15:16:46 INFO Removed 1 duplicate records based on student_id
+2026-09-21 15:16:46 INFO Data integration started across CSV, API, and Database
+2026-09-21 15:16:46 INFO Data integration completed. Integrated records: 14
+2026-09-21 15:16:46 INFO Transformation started
+2026-09-21 15:16:46 INFO Imputed 2 missing values in 'gpa' with median: 3.15
+2026-09-21 15:16:46 INFO Imputed 2 missing values in 'attendance' with median: 83.50
+2026-09-21 15:16:46 INFO Imputed 1 missing values in 'score' with mean: 85.31
+2026-09-21 15:16:46 INFO Generated derived columns: performance_level, attendance_status, academic_standing
+2026-09-21 15:16:46 INFO Transformation completed
+2026-09-21 15:16:46 INFO Validation started against institutional quality rules
+2026-09-21 15:16:47 INFO Validation completed: 9 valid records, 5 rejected records
+2026-09-21 15:16:47 INFO Saved 9 records to data\processed\final_dataset.csv (Final Processed Dataset)
+2026-09-21 15:16:47 INFO Saved 5 records to data\rejected\rejected_records.csv (Rejected Records)
+2026-09-21 15:16:47 INFO Final dataset created
+2026-09-21 15:16:47 INFO 
+-----------------------------------
+PIPELINE EXECUTION SUMMARY
+-----------------------------------
+CSV Records        : 15
+API Records        : 13
+Database Records   : 13
+Integrated Records : 14
+Valid Records      : 9
+Rejected Records   : 5
+Duplicate Records  : 1
+Missing Values     : 5
+Processing Time    : 1.361 seconds
+-----------------------------------
+2026-09-21 15:16:47 INFO Validation started against institutional quality rules
+2026-09-21 15:16:47 INFO Validation completed: 1 valid records, 5 rejected records
+2026-09-21 15:48:47 INFO ============================================================
+2026-09-21 15:48:47 INFO PIPELINE EXECUTION STARTED
+2026-09-21 15:48:47 INFO ============================================================
+2026-09-21 15:48:48 INFO Local API server not detected. Launching background mock API server...
+2026-09-21 15:48:48 INFO CSV extraction started
+2026-09-21 15:48:48 INFO CSV records: 15
+2026-09-21 15:48:48 INFO API extraction started
+2026-09-21 15:48:48 INFO API records: 13
+2026-09-21 15:48:48 INFO Database extraction started
+2026-09-21 15:48:48 INFO Database records: 13
+2026-09-21 15:48:48 INFO Removed 1 duplicate records based on student_id
+2026-09-21 15:48:48 INFO Data integration started across CSV, API, and Database
+2026-09-21 15:48:48 INFO Data integration completed. Integrated records: 14
+2026-09-21 15:48:48 INFO Transformation started
+2026-09-21 15:48:48 INFO Imputed 2 missing values in 'gpa' with median: 3.15
+2026-09-21 15:48:48 INFO Imputed 2 missing values in 'attendance' with median: 83.50
+2026-09-21 15:48:48 INFO Imputed 1 missing values in 'score' with mean: 85.31
+2026-09-21 15:48:48 INFO Generated derived columns: performance_level, attendance_status, academic_standing
+2026-09-21 15:48:48 INFO Transformation completed
+2026-09-21 15:48:48 INFO Validation started against institutional quality rules
+2026-09-21 15:48:48 INFO Validation completed: 9 valid records, 5 rejected records
+2026-09-21 15:48:48 INFO Saved 9 records to data\processed\final_dataset.csv (Final Processed Dataset)
+2026-09-21 15:48:48 INFO Saved 5 records to data\rejected\rejected_records.csv (Rejected Records)
+2026-09-21 15:48:48 INFO Final dataset created
+2026-09-21 15:48:48 INFO 
+-----------------------------------
+PIPELINE EXECUTION SUMMARY
+-----------------------------------
+CSV Records        : 15
+API Records        : 13
+Database Records   : 13
+Integrated Records : 14
+Valid Records      : 9
+Rejected Records   : 5
+Duplicate Records  : 1
+Missing Values     : 5
+Processing Time    : 1.352 seconds
+-----------------------------------
+2026-09-21 15:48:48 INFO Validation started against institutional quality rules
+2026-09-21 15:48:48 INFO Validation completed: 1 valid records, 5 rejected records
+2026-09-21 15:58:43 INFO ============================================================
+2026-09-21 15:58:43 INFO PIPELINE EXECUTION STARTED
+2026-09-21 15:58:43 INFO ============================================================
+2026-09-21 15:58:43 INFO Incremental check: Raw data sources unchanged since last execution. Using cached output.
+2026-09-21 16:01:14 INFO ============================================================
+2026-09-21 16:01:14 INFO PIPELINE EXECUTION STARTED
+2026-09-21 16:01:14 INFO ============================================================
+2026-09-21 16:01:14 INFO Local API server not detected. Launching background mock API server...
+2026-09-21 16:01:14 INFO CSV extraction started
+2026-09-21 16:01:14 INFO CSV records: 15
+2026-09-21 16:01:14 INFO API extraction started
+2026-09-21 16:01:14 INFO API records: 13
+2026-09-21 16:01:14 INFO Database extraction started
+2026-09-21 16:01:14 INFO Database records: 13
+2026-09-21 16:01:14 INFO Removed 1 duplicate records based on student_id
+2026-09-21 16:01:14 INFO Data integration started across CSV, API, and Database
+2026-09-21 16:01:14 INFO Data integration completed. Integrated records: 14
+2026-09-21 16:01:14 INFO Transformation started
+2026-09-21 16:01:14 INFO Imputed 2 missing values in 'gpa' with median: 3.15
+2026-09-21 16:01:14 INFO Imputed 2 missing values in 'attendance' with median: 83.50
+2026-09-21 16:01:14 INFO Imputed 1 missing values in 'score' with mean: 85.31
+2026-09-21 16:01:14 INFO Generated derived columns: performance_level, attendance_status, academic_standing
+2026-09-21 16:01:14 INFO Transformation completed
+2026-09-21 16:01:14 INFO Validation started against institutional quality rules
+2026-09-21 16:01:14 INFO Validation completed: 9 valid records, 5 rejected records
+2026-09-21 16:01:14 INFO Saved 9 records to data\processed\final_dataset.csv (Final Processed Dataset)
+2026-09-21 16:01:14 INFO Saved 5 records to data\rejected\rejected_records.csv (Rejected Records)
+2026-09-21 16:01:14 INFO Final dataset created
+2026-09-21 16:01:14 INFO 
+-----------------------------------
+PIPELINE EXECUTION SUMMARY
+-----------------------------------
+CSV Records        : 15
+API Records        : 13
+Database Records   : 13
+Integrated Records : 14
+Valid Records      : 9
+Rejected Records   : 5
+Duplicate Records  : 1
+Missing Values     : 5
+Processing Time    : 0.542 seconds
+-----------------------------------
+2026-09-21 16:01:44 INFO ============================================================
+2026-09-21 16:01:44 INFO PIPELINE EXECUTION STARTED
+2026-09-21 16:01:44 INFO ============================================================
+2026-09-21 16:01:44 INFO Incremental check: Raw data sources unchanged since last execution. Using cached output.

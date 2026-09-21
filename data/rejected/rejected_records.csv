@@ -1,0 +1,6 @@
+student_id,error_reason,student_name,age,major,city,gpa,attendance,status,course,semester,score,data_lineage,performance_level,attendance_status,academic_standing
+1007,Invalid Age: -4 (Rule 3),Khaled Nasser,-4,Cyber Security,Hodeidah,2.2,65.0,Probation,Python Programming,Fall 2025,68.0,CSV + API + DATABASE,Acceptable,Low,Passed
+1010,Invalid GPA: 4.85 (Rule 4); Invalid Score: 150.0 (Rule 6),Reem Salem,20,Software Engineering,Ibb,4.85,90.0,Active,Machine Learning,Fall 2025,150.0,CSV + API + DATABASE,Excellent,Good,Passed
+1011,Invalid Age: 115 (Rule 3),Nasser Saleh,115,Artificial Intelligence,Dhamar,3.0,80.0,Active,Python Programming,Fall 2025,77.0,CSV + API + DATABASE,Very Good,Good,Passed
+1012,Invalid Attendance: 125.0% (Rule 5),Laila Murad,21,Data Science,Mukalla,3.4,125.0,Active,Database Systems,Fall 2025,85.0,CSV + API + DATABASE,Very Good,Good,Passed
+,Missing student_id (Rule 1),Unknown Student,20,Software Engineering,Sanaa,3.15,83.5,,,,85.31,UNKNOWN,Very Good,Good,Passed

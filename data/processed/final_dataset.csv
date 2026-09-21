@@ -1,0 +1,10 @@
+student_id,student_name,age,major,city,gpa,attendance,status,course,semester,score,data_lineage,performance_level,attendance_status,academic_standing
+1001,Ahmed Ali,21,Computer Science,Sanaa,3.85,95.0,Active,Python Programming,Fall 2025,90.0,CSV + API + DATABASE,Excellent,Good,Passed
+1002,Sara Mohammed,22,Artificial Intelligence,Aden,3.45,88.0,Active,Python Programming,Fall 2025,92.0,CSV + API + DATABASE,Very Good,Good,Passed
+1003,Omar Hassan,20,Information Systems,Taiz,3.15,90.0,Active,Database Systems,Fall 2025,78.0,CSV + API + DATABASE,Very Good,Good,Passed
+1004,Mona Saleh,23,Software Engineering,Ibb,3.1,72.0,Active,Data Structures,Fall 2025,84.0,CSV + API + DATABASE,Very Good,Low,Passed
+1005,Ali Ahmed,21,Computer Science,Sanaa,2.75,82.0,Active,Python Programming,Fall 2025,74.0,CSV + API + DATABASE,Good,Good,Passed
+1006,Huda Omar,19,Information Technology,Sanaa,3.6,83.5,Active,Database Systems,Fall 2025,91.0,CSV + API + DATABASE,Excellent,Good,Passed
+1008,Fatima Adel,24,Computer Science,Taiz,1.85,55.0,At Risk,Data Structures,Fall 2025,58.0,CSV + API + DATABASE,At Risk,Low,Failed
+1009,Yousef Taha,22,Information Systems,Aden,3.2,85.0,Active,Cloud Computing,Fall 2025,82.0,CSV + API + DATABASE,Very Good,Good,Passed
+1013,Bilal Karim,22,Computer Science,Taiz,2.9,78.0,Active,Data Structures,Fall 2025,80.0,CSV + API + DATABASE,Good,Good,Passed
